@@ -30,15 +30,13 @@ print("Nenne mir jetzt zwei Zahlen.")
 start_zahl = int(input("Gib die erste Zahl ein: "))
 last_zahl = int(input("Und jetzt die zweite Zahl: "))
 
-#Falls eine größere Zahl als erstes eingegeben wird.
-if start_zahl > last_zahl:
-    start_zahl, last_zahl = last_zahl, start_zahl
 
-#Ausgabe der Zahlen dazwischen:
-for zahlen in range(start_zahl, last_zahl):
-    print (zahlen)
 
-#kp wie man das berechnen soll
+
+
+print(f"Die Primzahlen zwischen {start_zahl} und {last_zahl} sind: ")
+
+
 
 
 
